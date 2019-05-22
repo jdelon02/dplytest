@@ -12,9 +12,7 @@ dependencies:
   - field
   - field_group
   - file
-  - group
   - image
-  - image_effects
   - image_widget_crop
   - link
   - menu_ui
