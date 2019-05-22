@@ -2,14 +2,20 @@ name: 'Landing page and paragraphs'
 type: module
 core: 8.x
 dependencies:
+  - address
+  - block_content
   - block_field
+  - crop
+  - dropdown
   - dynamic_entity_reference
   - entity_access_by_field
   - entity_reference_revisions
   - field
   - field_group
   - file
+  - group
   - image
+  - image_effects
   - image_widget_crop
   - link
   - menu_ui
@@ -17,6 +23,19 @@ dependencies:
   - options
   - paragraphs
   - path
+  - profile
+  - social_core
+  - social_event
+  - social_event_managers
+  - social_event_max_enroll
+  - social_event_type
+  - social_group
+  - social_landing_page
+  - social_page
+  - social_post
+  - social_post_photo
+  - social_profile
+  - social_topic
   - text
   - user
 version: 8.x-1.0

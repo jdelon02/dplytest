@@ -10,6 +10,7 @@ dependencies:
     - paragraphs.paragraphs_type.block
   module:
     - link
+    - social_landing_page
 id: paragraph.block.preview
 targetEntityType: paragraph
 bundle: block
