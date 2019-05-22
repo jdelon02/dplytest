@@ -6,7 +6,6 @@ dependencies:
   - block_content
   - block_field
   - crop
-  - dropdown
   - dynamic_entity_reference
   - entity_access_by_field
   - entity_reference_revisions
