@@ -1,0 +1,21 @@
+uuid: ec5f803b-c057-4034-bc88-5e5b800e0ca6
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: ZNSIOz0CJtB-qtR1vRm7HcBJP3Hze_iq60nY8InOYYA
+id: plant_collection.field_pc_garden_description
+field_name: field_pc_garden_description
+entity_type: plant_collection
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: 648295b9-c934-4d1b-a682-9b4a1a372df9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.plant_type
+  module:
+    - text
+_core:
+  default_config_hash: ZNm6IjZJisCMM9v9XKoEeHPwXYjrxCf3nGzldF5JxRg
+id: node.plant_type.body
+field_name: body
+entity_type: node
+bundle: plant_type
+label: 'Plant Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

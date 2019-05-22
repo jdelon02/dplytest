@@ -1,0 +1,23 @@
+uuid: c31a689f-11a3-4e71-b1e4-05ce52f69553
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 8c4k2DjLIPZ1y0RWw2mXC0WwF4MK4Amd10IKRJX2eqw
+id: node.field_infraspecific_epithet_albu
+field_name: field_infraspecific_epithet_albu
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

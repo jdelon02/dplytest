@@ -1,0 +1,21 @@
+uuid: 64502863-f48e-4ac6-a3d7-beca65caec7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - eck
+_core:
+  default_config_hash: B8nBHh_8HC7oBZhoadU2K12y1vtUqrSXaAwKNOkW0kM
+id: plant_collection.field_pc_plant_source_location
+field_name: field_pc_plant_source_location
+entity_type: plant_collection
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

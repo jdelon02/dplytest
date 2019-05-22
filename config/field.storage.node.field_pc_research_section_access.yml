@@ -1,0 +1,21 @@
+uuid: 0f31e9aa-87b4-4563-bc1d-9a938c3bc435
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: J6H_v7OBbYLIJmcC4AqPclUyBsLCCafNJn-qo5tA0Lg
+id: node.field_pc_research_section_access
+field_name: field_pc_research_section_access
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

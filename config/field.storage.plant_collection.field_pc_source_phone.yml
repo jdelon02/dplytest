@@ -1,0 +1,21 @@
+uuid: 64cd09e7-2325-49c1-9fe5-cbbcddb95450
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - telephone
+_core:
+  default_config_hash: tUzx8YCXtwKL0GGWmq9yY080svZF2ua3VCkMVMZ2EJQ
+id: plant_collection.field_pc_source_phone
+field_name: field_pc_source_phone
+entity_type: plant_collection
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

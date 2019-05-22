@@ -1,0 +1,23 @@
+uuid: 3b520a0f-3599-4524-a058-1270a5ce6707
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.source
+    - field.storage.plant_collection.field_pc_source_phone
+  module:
+    - telephone
+_core:
+  default_config_hash: n7snuE5nBcS9NdozY1FvuLS2hFvA-dE7-SF1E9MR8RM
+id: plant_collection.source.field_pc_source_phone
+field_name: field_pc_source_phone
+entity_type: plant_collection
+bundle: source
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

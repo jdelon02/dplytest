@@ -1,0 +1,21 @@
+uuid: ae927504-7e99-4880-8681-a512d315d1ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - link
+_core:
+  default_config_hash: yQ2XK68fge4O19lTjV73DrbKBW-Cm02EPkmKsGtmots
+id: plant_collection.field_pc_src_site
+field_name: field_pc_src_site
+entity_type: plant_collection
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

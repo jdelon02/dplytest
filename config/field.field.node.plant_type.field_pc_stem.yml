@@ -1,0 +1,31 @@
+uuid: d41fb4a1-629f-4684-b939-894e2531a258
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_stem
+    - node.type.plant_type
+    - taxonomy.vocabulary.stem
+_core:
+  default_config_hash: IsslZs9G_p2BZoSOMuKQ6_L6cZEjW_Rde5Mmppin9v8
+id: node.plant_type.field_pc_stem
+field_name: field_pc_stem
+entity_type: node
+bundle: plant_type
+label: Stems
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      stem: stem
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

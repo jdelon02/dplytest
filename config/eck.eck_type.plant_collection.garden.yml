@@ -1,0 +1,11 @@
+uuid: e4c241ae-08bd-45c3-9961-2d83530d6b86
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.plant_collection
+_core:
+  default_config_hash: Xt_EQ3-CX8j5x9-j6OXCUOkJP6yrMb5Bfd1fxfDRs3M
+name: Garden
+type: garden
+description: ''

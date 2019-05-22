@@ -1,0 +1,23 @@
+uuid: b70022e2-df4b-4b26-af98-16ff45d35402
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: oeVuaAUy9T7qkcPfc00qv2vMRLvzrx0qAc2mUk_UScI
+id: node.field_pc_common_name
+field_name: field_pc_common_name
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

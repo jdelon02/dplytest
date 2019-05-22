@@ -1,0 +1,30 @@
+uuid: 54ba527b-e032-41d0-a193-a4b72cee07e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_plant_type
+    - node.type.plant_instance
+    - node.type.plant_type
+_core:
+  default_config_hash: curjG80eycVs7Nf64yaoS04-HCMdb23mUjoLy9AodnM
+id: node.plant_instance.field_pc_plant_type
+field_name: field_pc_plant_type
+entity_type: node
+bundle: plant_instance
+label: 'Plant Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      plant_type: plant_type
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

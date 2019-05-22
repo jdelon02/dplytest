@@ -1,0 +1,21 @@
+uuid: 33dd676e-806d-4adc-9318-aa4c63b8fcd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_cultivar_name
+    - node.type.plant_type
+_core:
+  default_config_hash: qPA7iri0KddPs41_CWae0x1cjp_a7pI8h-789CxQkdw
+id: node.plant_type.field_pc_cultivar_name
+field_name: field_pc_cultivar_name
+entity_type: node
+bundle: plant_type
+label: 'Cultivar Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

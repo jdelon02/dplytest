@@ -1,0 +1,89 @@
+uuid: 67065ec6-5636-4cbe-9587-8ffeae779df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.plant_instance.field_pc_bed
+    - field.field.node.plant_instance.field_pc_featured_plant_type_ima
+    - field.field.node.plant_instance.field_pc_garden
+    - field.field.node.plant_instance.field_pc_gardener_notes
+    - field.field.node.plant_instance.field_pc_plant_id
+    - field.field.node.plant_instance.field_pc_plant_parent
+    - field.field.node.plant_instance.field_pc_plant_type
+    - field.field.node.plant_instance.field_pc_source
+    - node.type.plant_instance
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: t2uEvfcuHOJObbgRb3L7zG0TsSmMQoD1hbCsTZdNUMc
+id: node.plant_instance.default
+targetEntityType: node
+bundle: plant_instance
+mode: default
+content:
+  field_pc_bed:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_pc_featured_plant_type_ima:
+    type: image
+    weight: 6
+    region: content
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_pc_garden:
+    weight: 3
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pc_plant_id:
+    type: string
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_pc_plant_parent:
+    type: entity_reference_label
+    weight: 5
+    region: content
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_pc_plant_type:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_pc_source:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  field_pc_gardener_notes: true
+  flag_follow_content: true
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  links: true

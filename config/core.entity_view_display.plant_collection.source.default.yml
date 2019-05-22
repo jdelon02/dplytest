@@ -1,0 +1,68 @@
+uuid: 3aec13fb-9b8b-4aba-9886-c276ed7ab7f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.source
+    - field.field.plant_collection.source.field_pc_plant_source_location
+    - field.field.plant_collection.source.field_pc_source_phone
+    - field.field.plant_collection.source.field_pc_src_site
+    - field.field.plant_collection.source.field_plant_pc_acqstn_meth
+  module:
+    - address
+    - link
+    - options
+    - telephone
+_core:
+  default_config_hash: i0ghPWhrlUmjFPYdfaYrJ9zDWEsHMhc_GgWNjMIs5D0
+id: plant_collection.source.default
+targetEntityType: plant_collection
+bundle: source
+mode: default
+content:
+  field_pc_plant_source_location:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_pc_source_phone:
+    weight: 1
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_pc_src_site:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_plant_pc_acqstn_meth:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  uid: true

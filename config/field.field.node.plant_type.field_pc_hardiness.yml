@@ -1,0 +1,31 @@
+uuid: 61062c57-b721-46f0-af7d-6a6028fbf1ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_hardiness
+    - node.type.plant_type
+    - taxonomy.vocabulary.hardiness
+_core:
+  default_config_hash: aLjJUCGiFq8n5DwIS8bdX6IrpipOGw-nRs9JotXQ_ac
+id: node.plant_type.field_pc_hardiness
+field_name: field_pc_hardiness
+entity_type: node
+bundle: plant_type
+label: Hardiness
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hardiness: hardiness
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

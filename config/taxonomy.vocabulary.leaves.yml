@@ -1,0 +1,11 @@
+uuid: a4f81bfe-9a92-40f9-beb8-0597190f481e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oApWgrAxylahRb4dG4VcwgkM3ATd2Xt_U1CqCrLo1Yw
+name: Leaves
+vid: leaves
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,11 @@
+uuid: a4309792-31c4-45ef-975e-ed232e732609
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.plant_collection
+_core:
+  default_config_hash: 8RE2CbnQBbsPeNuURvZPeaRdIcr44hhlrIV-u0TQd-Y
+name: Source
+type: source
+description: ''

@@ -1,0 +1,23 @@
+uuid: 38c9d982-9a9d-49a0-9ebf-c2e9b13a9898
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: orPPZgP9gJuYLQC8N3akLVkCU40QwWb9_sKGzFch4mE
+id: node.field_pc_cultivar_name
+field_name: field_pc_cultivar_name
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

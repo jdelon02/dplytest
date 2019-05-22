@@ -1,0 +1,35 @@
+uuid: de0e3fb1-7d89-495e-a3fa-7fd9768bab77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_featured_plant_type_ima
+    - node.type.plant_instance
+  module:
+    - image
+_core:
+  default_config_hash: OFBdWY8nCv_9tlBI9SbRNl-CmPAImsDsxJVyXWF-QQU
+id: node.plant_instance.field_pc_featured_plant_type_ima
+field_name: field_pc_featured_plant_type_ima
+entity_type: node
+bundle: plant_instance
+label: 'Featured Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  alt_field: false
+  default_image: 0
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: 400x400
+  title_field: false
+  alt_field_required: true
+  title_field_required: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

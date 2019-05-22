@@ -1,0 +1,23 @@
+uuid: 60ac163e-6852-4361-b59f-d4fae033464f
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: a3bz8FQaqCySNmyhYG6mBZcXUWmGQWH-YSR_n0Uzla4
+id: node.field_pc_zone
+field_name: field_pc_zone
+entity_type: node
+type: string
+settings:
+  max_length: 32
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

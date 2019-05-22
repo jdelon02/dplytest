@@ -1,0 +1,29 @@
+uuid: 735ad256-9500-42ce-81c7-06854d83cb37
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: JrCoxJzXX_C2h0MH2Vq1WHB5jp6_hTvXsHY2SMQq8mM
+id: node.field_pc_labeled
+field_name: field_pc_labeled
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'yes'
+      label: 'yes'
+    -
+      value: 'no'
+      label: 'no'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

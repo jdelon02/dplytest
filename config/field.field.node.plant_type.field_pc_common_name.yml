@@ -1,0 +1,21 @@
+uuid: d08b645d-252d-474d-aeef-3024eee02c51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_common_name
+    - node.type.plant_type
+_core:
+  default_config_hash: qO3ImQUnWgNx6KokT3EJcDzNjcySD2A2RlrPg7RIA08
+id: node.plant_type.field_pc_common_name
+field_name: field_pc_common_name
+entity_type: node
+bundle: plant_type
+label: 'Common Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

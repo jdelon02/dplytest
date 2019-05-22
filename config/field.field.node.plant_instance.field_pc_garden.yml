@@ -1,0 +1,30 @@
+uuid: 94e1bd74-d0f6-4ffb-8ea9-6c8245081488
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.garden
+    - field.storage.node.field_pc_garden
+    - node.type.plant_instance
+_core:
+  default_config_hash: hI0Ot6UdNa-YGsx4bMwhdY-KZzpmmoR7RwIrfD1Kjm0
+id: node.plant_instance.field_pc_garden
+field_name: field_pc_garden
+entity_type: node
+bundle: plant_instance
+label: Garden
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:plant_collection'
+  handler_settings:
+    target_bundles:
+      garden: garden
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

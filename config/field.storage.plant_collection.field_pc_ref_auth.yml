@@ -1,0 +1,23 @@
+uuid: 768170fc-ff37-44f3-a77a-ffc377034c57
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: INwZSrg8BH-ebDRSL9O42TwGRFk9RB2pPVcrXb1gIGc
+id: plant_collection.field_pc_ref_auth
+field_name: field_pc_ref_auth
+entity_type: plant_collection
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

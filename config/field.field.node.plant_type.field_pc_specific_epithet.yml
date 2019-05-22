@@ -1,0 +1,21 @@
+uuid: ed3de429-977c-4c79-8e18-a01aeecd50ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_specific_epithet
+    - node.type.plant_type
+_core:
+  default_config_hash: WupF0-UUDnQdzfWWOYr5_swePTKbNJD_9m-rhIac7hk
+id: node.plant_type.field_pc_specific_epithet
+field_name: field_pc_specific_epithet
+entity_type: node
+bundle: plant_type
+label: 'Specific Epithet'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

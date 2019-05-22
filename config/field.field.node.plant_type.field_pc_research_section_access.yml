@@ -1,0 +1,26 @@
+uuid: e2342f80-6c02-4890-b911-058457538378
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_research_section_access
+    - node.type.plant_type
+  module:
+    - text
+_core:
+  default_config_hash: rUcBeupHY4CGcY1T2Kj2KCcWli2HST9y9SKnaNNfjqs
+id: node.plant_type.field_pc_research_section_access
+field_name: field_pc_research_section_access
+entity_type: node
+bundle: plant_type
+label: 'Research Section Access'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<div class=\"user-create\"><a class=\"button\" href=\"/user/login\">Log in to&nbsp;Access</a></div>\r\n\r\n<div class=\"user-login\"><a class=\"button\" href=\"/user/register\">Create Account</a></div>\r\n"
+    format: filtered_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,224 @@
+uuid: 3ea23011-1ed3-45c3-bef6-69011f33073d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.plant_instance.field_pc_bed
+    - field.field.node.plant_instance.field_pc_featured_plant_type_ima
+    - field.field.node.plant_instance.field_pc_garden
+    - field.field.node.plant_instance.field_pc_gardener_notes
+    - field.field.node.plant_instance.field_pc_plant_id
+    - field.field.node.plant_instance.field_pc_plant_parent
+    - field.field.node.plant_instance.field_pc_plant_type
+    - field.field.node.plant_instance.field_pc_source
+    - image.style.thumbnail
+    - node.type.plant_instance
+  module:
+    - field_group
+    - image
+    - path
+third_party_settings:
+  field_group:
+    group_main_info:
+      children:
+        - title
+        - field_pc_plant_id
+        - field_pc_plant_type
+      parent_name: ''
+      weight: 0
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Main Info'
+      region: content
+    group_gardener_notes:
+      children:
+        - field_pc_gardener_notes
+      parent_name: ''
+      weight: 1
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Gardener Notes'
+      region: content
+    group_location:
+      children:
+        - field_pc_bed
+        - field_pc_garden
+      parent_name: ''
+      weight: 2
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Location
+      region: content
+    group_geneaology:
+      children:
+        - field_pc_plant_parent
+      parent_name: ''
+      weight: 3
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Genealogy
+      region: content
+    group_source:
+      children:
+        - field_pc_source
+      parent_name: ''
+      weight: 4
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Source
+      region: content
+    group_plant_images:
+      children:
+        - field_pc_featured_plant_type_ima
+      parent_name: ''
+      weight: 5
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Plant Images'
+      region: content
+_core:
+  default_config_hash: IEV76auEnMslTVLtuxqTfBvc41v36WaeFqmYqEfmr74
+id: node.plant_instance.default
+targetEntityType: node
+bundle: plant_instance
+mode: default
+content:
+  field_pc_bed:
+    type: entity_reference_autocomplete
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pc_featured_plant_type_ima:
+    type: image_image
+    weight: 9
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_pc_garden:
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_pc_gardener_notes:
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_pc_plant_id:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pc_plant_parent:
+    type: entity_reference_autocomplete
+    weight: 11
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pc_plant_type:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pc_source:
+    type: entity_reference_autocomplete
+    weight: 10
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  groups: true
+  uid: true

@@ -1,0 +1,23 @@
+uuid: 07c4f86c-ff38-46fd-921d-a19cdd2c3401
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: eyBVC2ocUSyGtGLsPUVVhGbr_NxfW4x-dBpfeQYmQ2o
+id: node.field_intergeneric_hybrid_flag
+field_name: field_intergeneric_hybrid_flag
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

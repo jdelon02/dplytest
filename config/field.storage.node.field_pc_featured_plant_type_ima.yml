@@ -1,0 +1,28 @@
+uuid: a4a9769a-2a74-4ee2-aa82-786064963bf2
+langcode: und
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+_core:
+  default_config_hash: RH_nO2s3JDIBbpe4YYGOqDHPc4FYJxts2AGyGgGcZ9o
+id: node.field_pc_featured_plant_type_ima
+field_name: field_pc_featured_plant_type_ima
+entity_type: node
+type: image
+settings:
+  default_image:
+    uuid: ''
+  uri_scheme: public
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

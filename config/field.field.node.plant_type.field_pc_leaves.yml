@@ -1,0 +1,31 @@
+uuid: bf71bf23-83a6-4548-b81d-3a1e06a1208a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_leaves
+    - node.type.plant_type
+    - taxonomy.vocabulary.leaves
+_core:
+  default_config_hash: sl00wwtfS1hzXi1aAgCESM9n2tGXUL8RaVAJFeGZ_54
+id: node.plant_type.field_pc_leaves
+field_name: field_pc_leaves
+entity_type: node
+bundle: plant_type
+label: Leaves
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      leaves: leaves
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

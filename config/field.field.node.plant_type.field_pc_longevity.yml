@@ -1,0 +1,31 @@
+uuid: 51f34213-99f0-44ba-ae8f-f99d4110f0f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_longevity
+    - node.type.plant_type
+    - taxonomy.vocabulary.longevity
+_core:
+  default_config_hash: QZH3tVS4_5J7EJLZ5xVCpz3MERGXFHJeJLKAZPfmt1A
+id: node.plant_type.field_pc_longevity
+field_name: field_pc_longevity
+entity_type: node
+bundle: plant_type
+label: Longevity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      longevity: longevity
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

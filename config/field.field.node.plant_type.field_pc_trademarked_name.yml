@@ -1,0 +1,21 @@
+uuid: 8a210b3f-09a0-4797-8000-2869143c3f24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_trademarked_name
+    - node.type.plant_type
+_core:
+  default_config_hash: 7H-LcxRnzRYj8GuUbLS5NnYx9eX1yi6s3siZJ9bifU4
+id: node.plant_type.field_pc_trademarked_name
+field_name: field_pc_trademarked_name
+entity_type: node
+bundle: plant_type
+label: 'Trademarked Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

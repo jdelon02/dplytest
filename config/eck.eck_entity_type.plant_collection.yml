@@ -1,0 +1,12 @@
+uuid: 4b3fde1e-b4db-42a9-9bca-935a9c41848b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: I2RtHrbMx9s7dyMZJZ2IDSKyVbfbMGTd5MQIiN-wtgA
+id: plant_collection
+label: 'Plant Collection'
+created: true
+changed: true
+uid: true
+title: true

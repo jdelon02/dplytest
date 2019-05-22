@@ -1,0 +1,23 @@
+uuid: 93b472e9-e407-4c79-a787-61dcc61b6171
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_scientific_name1
+    - node.type.plant_type
+  module:
+    - text
+_core:
+  default_config_hash: XibvzBpDuBAIlSGAhNHcNlEMiBL5g6xCH0o_eQzaznM
+id: node.plant_type.field_pc_scientific_name1
+field_name: field_pc_scientific_name1
+entity_type: node
+bundle: plant_type
+label: 'Botanical Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

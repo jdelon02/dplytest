@@ -1,0 +1,21 @@
+uuid: e56a657f-a991-421d-8756-7fb512b54399
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infraspecific_flag
+    - node.type.plant_type
+_core:
+  default_config_hash: LGMQ4lBXuSXZUGCPaZ9Y6Lzf0j1Xqz5HqW-BU4jfGxw
+id: node.plant_type.field_infraspecific_flag
+field_name: field_infraspecific_flag
+entity_type: node
+bundle: plant_type
+label: 'Infraspecific flag'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

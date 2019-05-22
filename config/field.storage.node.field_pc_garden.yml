@@ -1,0 +1,22 @@
+uuid: d631c8dd-88a7-43a4-af5f-de316888a09c
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+_core:
+  default_config_hash: 689u1bsPq-VP5QbUqidNASKlv2pxDFYcZHq7IGAnqFM
+id: node.field_pc_garden
+field_name: field_pc_garden
+entity_type: node
+type: entity_reference
+settings:
+  target_type: plant_collection
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

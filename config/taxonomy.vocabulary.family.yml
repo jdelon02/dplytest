@@ -1,0 +1,11 @@
+uuid: 407afcfd-fdcb-47bf-a512-1d04180b1b80
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MFVgQDhTnJXZb98NPvL6xcVbbgElnkm3z5z5ZtoRcLU
+name: Family
+vid: family
+description: ''
+hierarchy: 0
+weight: 0

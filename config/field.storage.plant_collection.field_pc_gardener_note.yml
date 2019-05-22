@@ -1,0 +1,21 @@
+uuid: 391f62c1-f85a-4363-9c1e-9f2dcb827ea1
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: dPF6SSP-dCiq4DzYZxO0mD2wxNUuiZQAybEfKaxUdXY
+id: plant_collection.field_pc_gardener_note
+field_name: field_pc_gardener_note
+entity_type: plant_collection
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

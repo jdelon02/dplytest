@@ -1,0 +1,22 @@
+uuid: 2498a948-7f5e-411f-9cbc-1fc302ef2657
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: D5XFSTmeE700pyD4gKq0eU7S7AafZfDuZZcJQqpAnO8
+id: node.field_pc_stem
+field_name: field_pc_stem
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

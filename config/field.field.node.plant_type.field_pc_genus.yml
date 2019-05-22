@@ -1,0 +1,21 @@
+uuid: 4fdee182-201b-4da2-a0e5-ad1fcb1b70e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_genus
+    - node.type.plant_type
+_core:
+  default_config_hash: GJ7Ldu2pZPDMhyMW77rZ1WGs5-a4vY-A7WKiwYMY6z4
+id: node.plant_type.field_pc_genus
+field_name: field_pc_genus
+entity_type: node
+bundle: plant_type
+label: Genus
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

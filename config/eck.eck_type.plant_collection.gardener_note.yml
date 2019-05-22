@@ -1,0 +1,11 @@
+uuid: 4be3d982-cbbd-4587-bc92-5c1e86771b0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.plant_collection
+_core:
+  default_config_hash: P_IgeZvbZCC4zfu78oAVG3pLi667Yc65dCQEgsWJk9Y
+name: 'Gardener Note'
+type: gardener_note
+description: ''

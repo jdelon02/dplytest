@@ -1,0 +1,23 @@
+uuid: 7d8e7c2b-21ff-43e3-a492-3fae6109ad77
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.source
+    - field.storage.plant_collection.field_plant_pc_acqstn_meth
+  module:
+    - options
+_core:
+  default_config_hash: Ga5tOl-SPaPe8B-kvoWR-hZ0UEP8KJn8nEntQWLudqI
+id: plant_collection.source.field_plant_pc_acqstn_meth
+field_name: field_plant_pc_acqstn_meth
+entity_type: plant_collection
+bundle: source
+label: 'Plant Acquisition Method'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

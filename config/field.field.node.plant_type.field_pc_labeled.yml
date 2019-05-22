@@ -1,0 +1,23 @@
+uuid: 3645dda7-6332-44e7-96df-2227beaf937c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_labeled
+    - node.type.plant_type
+  module:
+    - options
+_core:
+  default_config_hash: tDHp4NkpoOYyJhnIILJ2TUYiAzSM33QOijnr8U-Apgg
+id: node.plant_type.field_pc_labeled
+field_name: field_pc_labeled
+entity_type: node
+bundle: plant_type
+label: Labeled
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

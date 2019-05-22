@@ -1,0 +1,25 @@
+uuid: 5a33f759-d6ae-4a2f-b3d0-56bfe16592df
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.source
+    - field.storage.plant_collection.field_pc_src_site
+  module:
+    - link
+_core:
+  default_config_hash: j4jrXawUFwHGzV91CjcNecdUiGRKJHUzyzIF7qKk5L0
+id: plant_collection.source.field_pc_src_site
+field_name: field_pc_src_site
+entity_type: plant_collection
+bundle: source
+label: 'Source Website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

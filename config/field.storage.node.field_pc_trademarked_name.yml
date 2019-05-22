@@ -1,0 +1,23 @@
+uuid: 8d9f1e75-0b7f-45c9-b1b6-e235f07fa555
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: FhOUUv9N6cRHusq3Y68WPWdpsJfALgQL9OK-uiKnM1g
+id: node.field_pc_trademarked_name
+field_name: field_pc_trademarked_name
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

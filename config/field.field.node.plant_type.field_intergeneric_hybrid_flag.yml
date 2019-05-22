@@ -1,0 +1,21 @@
+uuid: 1c4b9be3-7b3a-4376-97da-69ef3371bbe1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intergeneric_hybrid_flag
+    - node.type.plant_type
+_core:
+  default_config_hash: _te2g3FSjTjVLFR7QCLtiZKp7McQvgoCA0JTFqMZGa0
+id: node.plant_type.field_intergeneric_hybrid_flag
+field_name: field_intergeneric_hybrid_flag
+entity_type: node
+bundle: plant_type
+label: 'Interspecific Hybrid Flag'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

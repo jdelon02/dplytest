@@ -1,0 +1,22 @@
+uuid: ba1abfc1-5d2d-4b9f-af0d-cd24efdbac40
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+_core:
+  default_config_hash: hEfEMh7NfkK7Y5pCrlkRp7nFFh1vH3Y6GvWoKR4DRPE
+id: node.field_pc_gardener_notes
+field_name: field_pc_gardener_notes
+entity_type: node
+type: entity_reference
+settings:
+  target_type: plant_collection
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: ebf60436-b36e-41af-b29c-b654fde44104
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - options
+_core:
+  default_config_hash: bXse_xdOeMQjzBhqsku6lC7E6PJeHG2U0bJYUCf9O0c
+id: plant_collection.field_plant_pc_acqstn_meth
+field_name: field_plant_pc_acqstn_meth
+entity_type: plant_collection
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

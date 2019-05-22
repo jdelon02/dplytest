@@ -1,0 +1,11 @@
+uuid: d9ce8dc3-b154-491f-ad41-b58b7e350cd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.plant_collection
+_core:
+  default_config_hash: HTqCXADU9S7MyL8XWHKfi2LyXIOq_62fbTvU8mCuf0U
+name: Reference
+type: reference
+description: ''

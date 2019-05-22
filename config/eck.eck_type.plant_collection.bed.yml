@@ -1,0 +1,11 @@
+uuid: cfa4aeb4-8e95-4ce1-89e5-befa4d4ea993
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.plant_collection
+_core:
+  default_config_hash: eIhQodYKDcaR02_x_87M6H6_4Ufa6oGHEmeUIckUmeI
+name: Bed
+type: bed
+description: ''

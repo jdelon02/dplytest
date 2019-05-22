@@ -1,0 +1,34 @@
+uuid: ee850466-9894-4b0f-9ee9-5b8e53258258
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.bed
+    - field.field.plant_collection.bed.field_pc_garden
+_core:
+  default_config_hash: gWcg_wj1cboDzwH9NGOjJki0YwQnJoyH0XjjeoMnk48
+id: plant_collection.bed.default
+targetEntityType: plant_collection
+bundle: bed
+mode: default
+content:
+  field_pc_garden:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  uid: true

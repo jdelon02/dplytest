@@ -1,0 +1,28 @@
+uuid: 24cc5351-21e8-4be3-82a9-89b482a22e0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.garden
+    - field.storage.plant_collection.field_pc_garden_location
+  module:
+    - address
+_core:
+  default_config_hash: DVc25vmGAZfIqgcVnRpm8lv1liD5WIiXUDsxCgXOa4o
+id: plant_collection.garden.field_pc_garden_location
+field_name: field_pc_garden_location
+entity_type: plant_collection
+bundle: garden
+label: 'Garden Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries:
+    US: US
+  langcode_override: ''
+  field_overrides: {  }
+  fields: {  }
+field_type: address
