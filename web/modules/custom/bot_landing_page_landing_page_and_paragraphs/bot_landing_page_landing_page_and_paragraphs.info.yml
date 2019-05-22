@@ -23,19 +23,6 @@ dependencies:
   - options
   - paragraphs
   - path
-  - profile
-  - social_core
-  - social_event
-  - social_event_managers
-  - social_event_max_enroll
-  - social_event_type
-  - social_group
-  - social_landing_page
-  - social_page
-  - social_post
-  - social_post_photo
-  - social_profile
-  - social_topic
   - text
   - user
 version: 8.x-1.0
