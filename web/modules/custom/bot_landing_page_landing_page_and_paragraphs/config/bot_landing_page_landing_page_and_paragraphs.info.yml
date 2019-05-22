@@ -1,0 +1,23 @@
+name: 'Landing page and paragraphs'
+type: module
+core: 8.x
+dependencies:
+  - block_field
+  - dynamic_entity_reference
+  - entity_access_by_field
+  - entity_reference_revisions
+  - field
+  - field_group
+  - file
+  - image
+  - image_widget_crop
+  - link
+  - menu_ui
+  - node
+  - options
+  - paragraphs
+  - path
+  - text
+  - user
+version: 8.x-1.0
+package: 'BOT Landing Page'
