@@ -3,7 +3,6 @@ module:
   automated_cron: 0
   big_pipe: 0
   block: 0
-  botpc_bot_plant_collection: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
