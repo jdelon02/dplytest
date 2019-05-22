@@ -15,6 +15,8 @@ dependencies:
   - options
   - paragraphs
   - path
+  - social_core
+  - social_profile
   - taxonomy
   - telephone
   - text

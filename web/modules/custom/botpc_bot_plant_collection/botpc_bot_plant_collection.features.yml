@@ -1,2 +1,4 @@
 bundle: botpc
+excluded:
+  - image.style.large
 required: true
