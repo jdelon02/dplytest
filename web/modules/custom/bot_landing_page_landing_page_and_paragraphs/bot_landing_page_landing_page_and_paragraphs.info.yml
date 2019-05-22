@@ -9,7 +9,6 @@ dependencies:
   - field
   - field_group
   - file
-  - group
   - image
   - image_widget_crop
   - link
@@ -18,10 +17,6 @@ dependencies:
   - options
   - paragraphs
   - path
-  - profile
-  - social_core
-  - social_event
-  - social_landing_page
   - text
   - user
 version: 8.x-1.0
