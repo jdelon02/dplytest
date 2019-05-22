@@ -24,6 +24,7 @@ dependencies:
     - field.field.node.plant_type.field_pc_stem
     - field.field.node.plant_type.field_pc_trademarked_name
     - field.field.node.plant_type.field_pc_zone
+    - image.style.large
     - node.type.plant_type
   module:
     - field_group
@@ -180,12 +181,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
   field_pc_featured_plant_type_ima:
-    type: image_url
+    type: image
     weight: 3
     region: content
     label: hidden
     settings:
-      image_style: ''
+      image_style: large
+      image_link: ''
     third_party_settings: {  }
   field_pc_genus:
     type: string

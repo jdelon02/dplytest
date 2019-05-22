@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+id: node.field_pc_garden
+field_name: field_pc_garden
+entity_type: node
+type: entity_reference
+settings:
+  target_type: plant_collection
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
