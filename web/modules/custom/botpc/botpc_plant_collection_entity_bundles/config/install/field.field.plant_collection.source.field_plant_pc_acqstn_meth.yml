@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.source
+    - field.storage.plant_collection.field_plant_pc_acqstn_meth
+  module:
+    - options
+id: plant_collection.source.field_plant_pc_acqstn_meth
+field_name: field_plant_pc_acqstn_meth
+entity_type: plant_collection
+bundle: source
+label: 'Plant Acquisition Method'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

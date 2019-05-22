@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.gardener_note
+    - field.storage.node.field_pc_gardener_notes
+    - node.type.plant_instance
+id: node.plant_instance.field_pc_gardener_notes
+field_name: field_pc_gardener_notes
+entity_type: node
+bundle: plant_instance
+label: 'Gardener Notes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:plant_collection'
+  handler_settings:
+    target_bundles:
+      gardener_note: gardener_note
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

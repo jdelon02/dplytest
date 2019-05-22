@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.reference
+    - field.field.plant_collection.reference.field_pc_garden
+    - field.field.plant_collection.reference.field_pc_pub_link
+    - field.field.plant_collection.reference.field_pc_ref_auth
+  module:
+    - link
+id: plant_collection.reference.default
+targetEntityType: plant_collection
+bundle: reference
+mode: default
+content:
+  field_pc_garden:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_pc_pub_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_pc_ref_auth:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

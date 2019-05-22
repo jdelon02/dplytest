@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.garden
+    - eck.eck_type.plant_collection.reference
+    - field.storage.plant_collection.field_pc_garden
+id: plant_collection.reference.field_pc_garden
+field_name: field_pc_garden
+entity_type: plant_collection
+bundle: reference
+label: Garden
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:plant_collection'
+  handler_settings:
+    target_bundles:
+      garden: garden
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

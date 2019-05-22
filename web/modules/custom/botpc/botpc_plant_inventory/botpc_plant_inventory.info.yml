@@ -1,0 +1,11 @@
+name: 'Plant Inventory'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - image
+  - menu_ui
+  - node
+  - user
+version: 8.x-0.1
+package: BOTPC

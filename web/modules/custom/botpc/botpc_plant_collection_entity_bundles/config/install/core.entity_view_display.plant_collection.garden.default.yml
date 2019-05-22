@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.garden
+    - field.field.plant_collection.garden.field_pc_garden_description
+    - field.field.plant_collection.garden.field_pc_garden_location
+  module:
+    - address
+id: plant_collection.garden.default
+targetEntityType: plant_collection
+bundle: garden
+mode: default
+content:
+  field_pc_garden_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_pc_garden_location:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  uid: true

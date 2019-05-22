@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.plant_collection.gardener_note
+    - field.field.plant_collection.gardener_note.field_pc_gardener_note
+id: plant_collection.gardener_note.default
+targetEntityType: plant_collection
+bundle: gardener_note
+mode: default
+content:
+  created:
+    type: timestamp
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_pc_gardener_note:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  uid: true
